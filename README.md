@@ -39,7 +39,7 @@ Time spent: 10 hours spent in total
   - [Link 1](http://wpdistillery.vm/wp-login.php)
   - [Link 2](http://127.0.0.1:8080/wp-login.php?loggedout=true)
 
-### 3.  Authenticated Cross Site Scripting By Uploading Through Media
+### 3.  Authenticated Cross Site Scripting Via Media File Metadata
 
 - [x] Summary: Code can be added by uploading images.
   - Vulnerability types: XSS
