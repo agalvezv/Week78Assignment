@@ -116,9 +116,9 @@ Describe any challenges encountered while doing the work
 
 
 
+# Extra Notes
 
-
-# Vulnerabilities
+# Previously Noted Vulnerabilities
 ## 1. XSS
 ## <xss onafterscriptexecute=alert(1)><script>1</script>
 <br>
