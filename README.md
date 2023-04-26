@@ -8,7 +8,7 @@ Time spent: 10 hours spent in total
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. Authenticated Stored Cross Site Scripting Through Post Messages
 
 - [x] Summary: Code can be inserted through a post. 
   - Vulnerability types: XSS
@@ -24,10 +24,10 @@ Time spent: 10 hours spent in total
   - [Link 2](http://127.0.0.1:8080/?p=43)
   
   
-### 2. (Required) Vulnerability Name or ID
+### 2. User Enumeration
 
 - [x] Summary: Wpscan can be used to gather usernames and passwords. 
-  - Vulnerability types: User Enumeration
+  - Vulnerability types: Enumeration
   - Tested in version:4.1.0
   - Fixed in version: 4.3.0
 - [x] GIF Walkthrough:
@@ -39,10 +39,10 @@ Time spent: 10 hours spent in total
   - [Link 1](http://wpdistillery.vm/wp-login.php)
   - [Link 2](http://127.0.0.1:8080/wp-login.php?loggedout=true)
 
-### 3. (Required) Vulnerability Name or ID
+### 3.  Authenticated Cross Site Scripting By Uploading Through Media
 
 - [x] Summary: Code can be added by uploading images.
-  - Vulnerability types: Authenticated Cross Site Scripting
+  - Vulnerability types: XSS
   - Tested in version: 4.1.0
   - Fixed in version: 4.1.16
 - [x] GIF Walkthrough: 
